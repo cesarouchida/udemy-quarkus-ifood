@@ -10,5 +10,9 @@ gen
 
 */target
 
+# Eclipse IDE
+.settings
+.project
+
 ### MODULE cadastro
 ./
