@@ -5,7 +5,7 @@ Curso da Udemy
 
 Dividos em conceitos para conforme o andamento das aulas
 
-### Modulo 01 - Aula 03
+### Seção 01 - Aula 03
 
 ``` bash
 ├── udemy-quarkus-ifood
@@ -14,7 +14,7 @@ Dividos em conceitos para conforme o andamento das aulas
 ├   └── pedido
 └── pom.xml
 ```
-### Modulo 02 - Aula 01
+### Seção 02 - Aula 04
 
 Instalação das extensões do quarkus 
 
@@ -30,14 +30,15 @@ $ mvn quarkus:add-extension -dextensions="$nome das extensões"
 
 Uso do datasource dentro do [application.properties](cadastro/src/main/resources/application.properties)
 
-### Modulo 02 - Aula 02
+### Seção 02 - Aula 05
 
 Criação do Docker Compose para provisionamento do recurso do banco para o módulo de __cadastro__
 
 [docker-compose.yml](docker-compose.yml)
 
-### Módulo 02 - Aula 03
+### Seção 02 - Aula 06 e Aula 07
 
-Criação do CRUD em quarkus acessando um endpoint para acesso dentro do api de cadastro.
+Aula 06 - Criação do CRUD em quarkus acessando um endpoint para acesso dentro do api de cadastro.
 
-#TODO
+Aula 07 - Conferindo os Pratos criados para instalação 
+
