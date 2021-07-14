@@ -14,9 +14,9 @@ public class Restaurante extends PanacheEntityBase {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
 
-    public String cpnj;
-
     public String nome;
+
+    public String cnpj;
 
     @OneToOne(cascade = CascadeType.ALL)
     public Localizacao localizacao;

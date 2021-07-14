@@ -52,4 +52,5 @@ Refatoração do código (DTO) para documentação do Swagger com MapStruct
 
 ### Seção 02 - Aula 10
 
+Uso do Hibernate Validator 
 
