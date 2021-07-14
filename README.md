@@ -45,3 +45,11 @@ Aula 07 - Conferindo os Pratos criados para instalação
 ### Seção 02 - Aula 08
 
 Criando Classes de Test com Database Rider , TestContainer e Approval Test.
+
+### Seção 02 - Aula 09
+
+Refatoração do código (DTO) para documentação do Swagger com MapStruct
+
+### Seção 02 - Aula 10
+
+

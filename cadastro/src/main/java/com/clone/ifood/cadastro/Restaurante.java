@@ -18,16 +18,16 @@ public class Restaurante extends PanacheEntityBase {
 
     public String nome;
 
-    @ManyToOne
+    @OneToOne(cascade = CascadeType.ALL)
     public Localizacao localizacao;
 
     public String proprietario;
 
-    // TODO: Verificar o GMT Brasil
+    // Alterado com o formato com o Mapstuct
     @CreationTimestamp
     public Date dataCriacao;
 
-    // TODO: Verificar o GMT Brasil
+    // Alterado com o formato com o Mapstuct
     @UpdateTimestamp
     public Date dataAtualizacao;
 }
