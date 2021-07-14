@@ -42,3 +42,6 @@ Aula 06 - Criação do CRUD em quarkus acessando um endpoint para acesso dentro 
 
 Aula 07 - Conferindo os Pratos criados para instalação 
 
+### Seção 02 - Aula 08
+
+Criando Classes de Test com Database Rider , TestContainer e Approval Test.
