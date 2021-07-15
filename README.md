@@ -59,3 +59,9 @@ Uso do Hibernate Validator
 Melhorando as Validações, criando um package ___infra___ onde tem validações genericas para as mensagens.
 Exemplo 
 
+### Seção 02 - Aula 12
+
+Inserindo dentro do [docker-compose.yml](docker-compose.yml) o keycloak e começando a configuração
+
+### Seção 02 - Aula 13
+
