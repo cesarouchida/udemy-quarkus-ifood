@@ -54,3 +54,8 @@ Refatoração do código (DTO) para documentação do Swagger com MapStruct
 
 Uso do Hibernate Validator 
 
+### Seção 02 - Aula 11
+
+Melhorando as Validações, criando um package ___infra___ onde tem validações genericas para as mensagens.
+Exemplo 
+

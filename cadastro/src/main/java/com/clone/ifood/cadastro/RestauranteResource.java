@@ -4,6 +4,10 @@ import com.clone.ifood.cadastro.dto.AdicionarRestauranteDTO;
 import com.clone.ifood.cadastro.dto.AtualizarRestauranteDTO;
 import com.clone.ifood.cadastro.dto.RestauranteDTO;
 import com.clone.ifood.cadastro.dto.RestauranteMapper;
+import com.clone.ifood.cadastro.infra.ConstraintViolationResponse;
+import org.eclipse.microprofile.openapi.annotations.media.Content;
+import org.eclipse.microprofile.openapi.annotations.media.Schema;
+import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
 import javax.inject.Inject;
@@ -37,6 +41,15 @@ public class RestauranteResource {
 
     @POST
     @Transactional
+//    Personalizando o retorno para cado ponto
+    @APIResponse(
+        responseCode = "201",
+        description = "Caso restaurante seja cadastrado com sucesso"
+    )
+    @APIResponse(
+        responseCode = "400",
+        content = @Content(schema = @Schema(allOf = ConstraintViolationResponse.class))
+    )
     public Response adicionar(@Valid AdicionarRestauranteDTO dto){
         Restaurante restaurante = restauranteMapper.toRestaurante(dto);
         restaurante.persist();
