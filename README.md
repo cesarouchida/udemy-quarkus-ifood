@@ -63,5 +63,16 @@ Exemplo
 
 Inserindo dentro do [docker-compose.yml](docker-compose.yml) o keycloak e começando a configuração
 
+- Criar Relm
+- Criar Client
+
 ### Seção 02 - Aula 13
 
+Finalizando as configuração do keycloak
+
+- Configurar Login 
+- Criar user - proprietario1
+- Alterar Senha: senha123
+- Criar role no realm: proprietario
+- Vincular role ao cliente
+- Entrar no client -> Mappers -> add built in, realm roles, mapear para groups
