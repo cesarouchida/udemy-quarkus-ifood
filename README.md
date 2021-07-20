@@ -80,4 +80,4 @@ Finalizando as configuração do keycloak
 
 ### Seção 02 - Aula 14
 
-Inserindo dentro do acesso via JWT monitorado pelo keycloak.
+Inserindo acesso via JWT monitorado pelo keycloak. Dentro da classe __RestaurateResource__  

@@ -4,6 +4,7 @@ import com.clone.ifood.cadastro.dto.AdicionarPratoDTO;
 import com.clone.ifood.cadastro.dto.AtualizarPratoDTO;
 import com.clone.ifood.cadastro.dto.PratoDTO;
 import com.clone.ifood.cadastro.dto.PratoMapper;
+import org.eclipse.microprofile.openapi.annotations.security.SecurityRequirement;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
 import javax.inject.Inject;
@@ -22,6 +23,7 @@ import java.util.stream.Stream;
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 @Tag(name = "prato")
+@SecurityRequirement(name="ifood-oauth")
 public class PratosResource {
 
     @Inject
