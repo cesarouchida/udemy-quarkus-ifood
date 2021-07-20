@@ -24,3 +24,6 @@ services:
       KEYCLOAK_PASSWORD: admin
     ports:
       - 8180:8080
+    volumes:
+    - .local/keycloak:/var/lib/keycloak/data
+

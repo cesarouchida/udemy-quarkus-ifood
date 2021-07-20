@@ -76,3 +76,8 @@ Finalizando as configuração do keycloak
 - Criar role no realm: proprietario
 - Vincular role ao cliente
 - Entrar no client -> Mappers -> add built in, realm roles, mapear para groups
+
+
+### Seção 02 - Aula 14
+
+Inserindo dentro do acesso via JWT monitorado pelo keycloak.
