@@ -86,7 +86,7 @@ public class RestauranteResource {
         Restaurante restaurante = restauranteOp.get();
 
         restauranteMapper.toRestaurante(dto, restaurante);
-        restaurante.persist();
+        restaurante.persistAndFlush();
     }
 
     @DELETE

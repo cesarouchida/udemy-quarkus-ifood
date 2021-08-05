@@ -81,3 +81,9 @@ Finalizando as configuração do keycloak
 ### Seção 02 - Aula 14
 
 Inserindo acesso via JWT monitorado pelo keycloak. Dentro da classe __RestaurateResource__  
+
+### Seção 02 - Aula 15
+
+Gerando um token para os testes classe __TokenUtils__ pego no proprio exemplo do quarkus, pós implementação do keycloak .
+
+Realizando os testes para os __RestaurateResource__ com o token valido 
