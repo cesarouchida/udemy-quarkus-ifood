@@ -87,3 +87,9 @@ Inserindo acesso via JWT monitorado pelo keycloak. Dentro da classe __Restaurate
 Gerando um token para os testes classe __TokenUtils__ pego no proprio exemplo do quarkus, pós implementação do keycloak .
 
 Realizando os testes para os __RestaurateResource__ com o token valido 
+
+
+### Seção 02 - Aula 16
+
+Inserindo Jaeger dentro do __docker_compose.yml__ 
+
