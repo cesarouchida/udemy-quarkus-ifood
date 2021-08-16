@@ -25,7 +25,7 @@ services:
     ports:
       - 8180:8080
     volumes:
-    - .local/keycloak:/var/lib/keycloak/data
+      - .local/keycloak/:/opt/jboss/keycloak/standalone/data/
 
   jaeger_ifood:
     container_name: jaeger_ifood
@@ -39,3 +39,7 @@ services:
       - "14268:14268"
       - "14250:14250"
       - "9411:9411"
+
+networks:
+  default:
+    driver: bridge

@@ -93,3 +93,9 @@ Realizando os testes para os __RestaurateResource__ com o token valido
 
 Inserindo Jaeger dentro do __docker_compose.yml__ 
 
+
+### Seção 02 - Aula 17
+
+Inserindo o Opentraccing dentro do projeto, para os traccing de JDBC refletirem no Jaeger 
+
+Obs.: Inserindo volume para keycloak

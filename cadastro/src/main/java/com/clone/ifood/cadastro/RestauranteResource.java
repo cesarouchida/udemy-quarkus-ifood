@@ -31,7 +31,6 @@ import java.util.stream.Stream;
 // JWT - Keycloak
 @RolesAllowed("proprietario")
 @SecurityScheme(
-
         securitySchemeName = "ifood-oauth",
         type = SecuritySchemeType.OAUTH2,
         flows = @OAuthFlows(
