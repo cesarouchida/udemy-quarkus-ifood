@@ -99,3 +99,18 @@ Inserindo Jaeger dentro do __docker_compose.yml__
 Inserindo o Opentraccing dentro do projeto, para os traccing de JDBC refletirem no Jaeger 
 
 Obs.: Inserindo volume para keycloak
+
+### Seção 02 - Aula 18
+
+Inserindo prometheus e grafana no docker-compose.yml
+
+Obs.: Alterando a networking para bridge no docker e inserindo host para docker prometheus 
+
+[Config Prometheus](.local/prometheus/prometheus.yml)
+
+````yml
+static_configs:
+  - targets: ['host.docker.internal:8080']
+````
+
+### Seção 02 - Aula 19

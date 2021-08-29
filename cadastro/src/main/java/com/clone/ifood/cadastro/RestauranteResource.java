@@ -5,6 +5,7 @@ import com.clone.ifood.cadastro.dto.AtualizarRestauranteDTO;
 import com.clone.ifood.cadastro.dto.RestauranteDTO;
 import com.clone.ifood.cadastro.dto.RestauranteMapper;
 import com.clone.ifood.cadastro.infra.ConstraintViolationResponse;
+import org.eclipse.microprofile.metrics.annotation.Counted;
 import org.eclipse.microprofile.openapi.annotations.enums.SecuritySchemeType;
 import org.eclipse.microprofile.openapi.annotations.media.Content;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
