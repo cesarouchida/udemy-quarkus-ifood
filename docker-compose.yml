@@ -54,6 +54,8 @@ services:
     image: grafana/grafana:latest
     ports:
       - 3000:3000
+    links:
+      - prometheus_ifood
 
 networks:
   default:

@@ -114,3 +114,7 @@ static_configs:
 ````
 
 ### Seção 02 - Aula 19
+
+Adicionando Métricas para monitação dentro do [RestaurateResource](cadastro/src/main/java/com/clone/ifood/cadastro/RestauranteResource.java), e criando um dashboard para grafana.
+
+### Seção 02 - Aula 20
