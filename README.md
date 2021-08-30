@@ -118,3 +118,7 @@ static_configs:
 Adicionando Métricas para monitação dentro do [RestaurateResource](cadastro/src/main/java/com/clone/ifood/cadastro/RestauranteResource.java), e criando um dashboard para grafana.
 
 ### Seção 02 - Aula 20
+
+Inserindo o Flyway para versionamento do banco de dados.
+
+### Seção 03 - Aula 21

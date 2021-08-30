@@ -1,4 +1,4 @@
-EXTENSIONS = quarkus-smallrye-metrics, quarkus-smallrye-opentracing
+EXTENSIONS = quarkus-smallrye-metrics, quarkus-smallrye-opentracing, flyway
 
 .PHONY: cadastro
 
