@@ -121,4 +121,7 @@ Adicionando Métricas para monitação dentro do [RestaurateResource](cadastro/s
 
 Inserindo o Flyway para versionamento do banco de dados.
 
-### Seção 03 - Aula 21
+### Seção 03 - Aula 21 e 22
+
+Aula comentam sobre reatividade
+
