@@ -125,3 +125,8 @@ Inserindo o Flyway para versionamento do banco de dados.
 
 Aula comentam sobre reatividade
 
+### Seção 03 - Aula 23
+
+Inserindo no docker-compose o Postgresql para modulo de marketingplace e adicionando as extensões para reatividade no quarkus e criando as primeiras classes
+
+### Seção 03 - Aula 24
